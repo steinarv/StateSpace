@@ -1,0 +1,4 @@
+useDynLib(StateSpace)
+exportPattern("^[[:alpha:]]+")
+importFrom(moments, skewness, kurtosis)
+importFrom(nortest, ad.test)
